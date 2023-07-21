@@ -1,0 +1,27 @@
+/* Write your CSS code here */
+.blog-item-details-container {
+  padding-left: 95px;
+  padding-right: 95px;
+}
+.blog-details-id {
+  display: flex;
+  align-items: center;
+}
+.each-image {
+  width: 100%;
+  border-radius: 10px;
+}
+.content {
+  color: #2f4f4f;
+  font-size: 14px;
+  font-weight: 500;
+}
+@media screen and (max-width: 576px) {
+  .blog-item-details-container {
+    padding: 15px;
+  }
+  .each-title {
+    font-size: 20px;
+    text-align: center;
+  }
+}

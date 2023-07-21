@@ -1,0 +1,21 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.list-container {
+  list-style: none;
+  padding: 0;
+}
+@media (max-width: 576px) {
+  .profile-name {
+    font-size: 20px;
+    text-align: center;
+  }
+  .designation {
+    font-size: 14px;
+    text-align: center;
+  }
+}
